@@ -1,0 +1,111 @@
+body {
+    font-family: poppins;
+    background-color: rgb(255, 255, 255);
+}
+
+.jurusan {
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+
+    display: flex;
+}
+.jurusan .tkj {
+    background-color: rgb(224, 235, 235);
+    color: #111518;
+    padding: 10px;
+    margin: 10px 10px 10px 400px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.jurusan .tkj .judul {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.jurusan .tkj .silabus {
+    background-color: #0c084c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.jurusan .dkv {
+    background-color: rgb(224, 235, 235);
+    color: #111518;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.jurusan .dkv .judul2 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.jurusan .dkv .silabus2 {
+    background-color: #0c084c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.jurusan .rpl {
+    background-color: rgb(224, 235, 235);
+    color: #111518;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.jurusan .rpl .judul3 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.jurusan .rpl .silabus3 {
+    background-color: #0c084c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 43px;
+    color: #0c084c;
+}
+
+h3 {
+    font-size: 16px;
+    color: #0c084c;
+}
+
+.jurusan .tkj .list {
+    color: #687279;
+}
+.jurusan .dkv .list2 {
+    color: #687279;
+}
+.jurusan .rpl .list3 {
+    color: #687279;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: poppins;
+    background-color: rgb(43, 226, 174);
+
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px; */
+
+    /* margin: 20; */
+
+    /*     atas kanan bawah kiri */
+    /* margin: 80px 80px 80px 80px; */
+
+}
+
+p {
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+    line-height: 1,5;
+    text-align: center;
+
+    margin: 50px 0px 0px 0px;
+
+    padding: 20px;
+
+    border-radius: 20px 0px 20px 0px;
+}
+
+.capt {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.capt .reff {
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.capt .verse {
+    background-color: rgb(237, 255, 41);
+}

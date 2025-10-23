@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        input[type="text"], select, textarea{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+
+        input[type="kirim"]{
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 22px;
+            /* margin: 8px 0; */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            /* text-align: center; */
+        }
+
+        input[type="kirim"]:hover{
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Contact Form</h3>
+        <form action="">
+            <label for="nama_lengkap">Nama Lengkap</label>
+            <input type="text" 
+            id="nama_lengkap"
+            name="nama_lengkap" 
+            placeholder="Nama Lengkap">
+
+            <label for="negara">Negara</label>
+            <select name="negara" id="negara">
+                <option value="">Pilih Negara</option>
+                <option value="">Afganistan</option>
+                <option value="">Afrika Tengah</option>
+                <option value="">Albania</option>
+                <option value="">Aljazair</option>
+                <option value="">Amerika Serikat</option>
+                <option value="">Andorra</option>
+                <option value="">Angola</option>
+                <option value="">Antigua dan Barbuda</option>
+                <option value="">Arab Saudi</option>
+                <option value="">Argentina</option>
+                <option value="">Armenia</option>
+                <option value="">Australia</option>
+                <option value="">Austria</option>
+                <option value="">Azerbaijan</option>
+                <option value="">Bahama</option>
+                <option value="">Bahrain</option>
+                <option value="">Bangladesh</option>
+                <option value="">Barbados</option>
+                <option value="">Belanda</option>
+                <option value="">Belarus</option>
+                <option value="">Belgia</option>
+                <option value="">Belize</option>
+                <option value="">Benin</option>
+                <option value="">Bhutan</option>
+                <option value="">Bolivia</option>
+                <option value="">Bosnia dan Herzegovina</option>
+                <option value="">Botswana</option>
+                <option value="">Brasil</option>
+                <option value="">Britania Raya</option>
+                <option value="">Indonesia</option>
+                <option value="">Konoha</option>
+                <option value="">Wakanda</option>
+                <option value="">Sahroni</option>
+                <option value="">Miko</option>
+                <option value="">BBM</option>
+                <option value="">Singapure</option>
+                <option value="">Thailand</option>
+                <option value="">Zimbabwe</option>
+            </select>
+
+            <input type="radio" id="bogor" name="kota"
+            value="bogor" />
+            <label for="bogor">Bogor</label>
+
+            <input type="radio" id="jakarta" name="kota"
+            value="jakarta" />
+            <label for="jakarta">Jakarta</label>
+
+            <input type="radio" id="Sulawesi" name="kota"
+            value="Sulawesi" />
+            <label for="Sulawesi">Sulawesi</label><br /><br />
+
+            <input type="checkbox" name="sma" value="sma" />
+            <label for="sma">SMA</label>
+
+            <input type="checkbox" name="smk" value="smk" />
+            <label for="smk">SMK</label>
+
+            <input type="checkbox" name="smp" value="smp" />
+            <label for="smp">SMP</label>
+
+            <textarea name="subjek" id="subjek" placeholder="subjek" style="height: 200px;"></textarea>
+
+            <input type="kirim" value="Kirim">
+        </form>
+    </div>
+</body>
+</html>

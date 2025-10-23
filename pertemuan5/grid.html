@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "konten1 konten2 konten3 konten4";
+            /* grid-template-rows:; */
+        }
+
+        .container .satu{
+            /* background-color: azure; */
+            grid-area: konten1;
+            grid-template-rows: 1fr;
+        }
+
+        .container .dua{
+            grid-area: konten2;
+            grid-template-rows: 1fr;
+        }
+
+        .container .tiga{
+            grid-area: konten3;
+            grid-template-rows: 1fr;
+        }
+
+        .container .empat{
+            grid-area: konten4;
+            grid-template-rows: 1fr;
+        }
+
+        .container2{
+            display: grid;
+            grid-template-areas: "ch1 ch2" "ch3 ch4";
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .container2 .ch1{
+            grid-area: ch1;
+            grid-template-rows: 1fr;  
+        }
+
+        .container2 .ch2{
+            grid-area: ch2;
+            grid-template-rows: 1fr;  
+        }
+
+        .container2 .ch3{
+            grid-area: ch3;
+            grid-template-rows: 1fr;  
+        }
+
+        .container2 .ch4{
+            grid-area: ch4;
+            grid-template-rows: 1fr;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora fuga corporis rem molestias non illo quibusdam voluptatum voluptates, consequuntur beatae eius inventore fugiat alias corrupti voluptatibus explicabo accusantium dolores ipsam iure doloribus facilis voluptatem pariatur! Porro voluptas ex corporis blanditiis amet maiores inventore, eum cupiditate velit veritatis recusandae aspernatur autem.
+        </div>
+        <div class="dua">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit culpa commodi saepe doloremque vero! Velit corporis, tempore sunt fuga corrupti dignissimos similique natus nulla impedit, quos quisquam deleniti quasi vitae quaerat fugiat mollitia error itaque beatae voluptatibus quae? Numquam delectus consequuntur eos quaerat quam quidem illo debitis expedita vel laboriosam!
+        </div>
+        <div class="tiga">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia minus quae dignissimos optio a. Fugiat ipsa dolor architecto quos pariatur asperiores natus, iusto tempora eius adipisci repellat nihil. Dolore doloremque, dolor iste, tempora tempore harum magni dolorum velit voluptates repellat, temporibus pariatur aliquam totam repellendus? Dicta mollitia iusto nemo suscipit!
+        </div>
+        <div class="empat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, tempora consequatur! Iusto quisquam, architecto delectus tempore quod exercitationem recusandae reiciendis aspernatur eveniet error pariatur quidem placeat laudantium molestiae fugiat facere similique quaerat. Odio distinctio ipsa saepe voluptatum. Aspernatur, doloremque, aut asperiores mollitia, enim eos nemo quasi suscipit labore ut voluptatum.
+        </div>
+    </div>
+    <div class="container2">
+        <div class="ch1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias architecto delectus cumque numquam ducimus sed molestiae, accusantium laborum voluptas repellat aspernatur cupiditate. Tenetur officiis, architecto dolores perferendis nihil praesentium, repellendus aspernatur eligendi mollitia porro quia nisi quas dolorem quod nostrum dolor iure voluptas possimus assumenda! Dolores dignissimos harum minus exercitationem.
+        </div>
+        <div class="ch2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, cupiditate suscipit porro similique, optio velit sint quod sit cum hic provident officiis vitae repellat enim recusandae excepturi asperiores natus nam nobis repudiandae rem! Totam, laborum quidem provident quis facere incidunt veniam, sint, nam impedit culpa amet ut eligendi similique sed.
+        </div>
+        <div class="ch3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quae, sed repellat mollitia eaque alias, exercitationem ex excepturi neque aperiam iure tempora magnam obcaecati dolorum quaerat consequatur atque rerum adipisci ipsa. Magnam quisquam, voluptas possimus odit sapiente natus, nihil nemo ad rem aspernatur tempora nobis recusandae vel veritatis fugiat dolor.
+        </div>
+        <div class="ch4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt odio ut nisi, sint nulla ullam perspiciatis cum ad excepturi neque maxime consectetur laboriosam recusandae autem reprehenderit ipsam architecto delectus asperiores atque velit nam quisquam. Fugit voluptate consequuntur eaque. Temporibus, mollitia? Distinctio est nam illo sint, harum dolorum eius reprehenderit?
+        </div>
+    </div>
+</body>
+</html>
