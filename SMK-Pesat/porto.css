@@ -1,0 +1,18 @@
+*{
+    color: #0c084c;
+}
+
+.containerport{
+    display: flex;
+    width: 100%px;
+    padding-left: 30%;
+    gap: 30px;
+}
+
+.teksport{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 50px; 
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login2</title>
+</head>
+<style>
+    body {
+        background-color: #f4f4f8;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-box {
+        background-color: #fff;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .tabs {
+        display: flex;
+    }
+
+    .tab {
+        flex: 1;
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #00a5b8;
+        border-bottom: 2px solid transparent;
+    }
+
+    .tab.active {
+        background-color: #00a5b8;
+        color: white;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .form label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .form input[type="email"],
+    .form input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+
+    .form button {
+        width: 40%;
+        padding: 10px;
+        background-color: #47515a;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .form button:hover {
+        background-color: #333c45;
+    }
+
+    .remember {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: #777;
+        margin-top: 10px;
+    }
+
+    .remember input {
+        margin-right: 8px;
+    }
+</style>
+<body>
+    <div class="login-box">
+        <div class="tabs">
+            <div class="tab">SIGN IN</div>
+            <div class="tab active">REGISTER NOW</div>
+        </div>
+        <div class="form">
+            <label for="email">Email ID</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+
+            <button type="submit">SIGN IN</button>
+
+            <div class="remember">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
